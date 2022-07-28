@@ -1,2 +1,19 @@
-package PACKAGE_NAME;public class Main {
+public class Main {
+    public static void main(String[] args) {
+
+        int cost = 2390;
+        int costBonusMile = 20;
+
+        int bonusMile = cost/costBonusMile;
+
+        System.out.println(bonusMile);
+        // Объявляете переменные для входных данных и
+        // параметров программы: одну для хранения
+        // стоимости билета, другую для хранения количества
+        // рублей для одной бонусной милли
+
+        // Рассчитываете количество бонусных милль, используя
+        // значения заведённых переменных. Ответ сохраняете в
+        // новую переменную и выводите на экран
+    }
 }
